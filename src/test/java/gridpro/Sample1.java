@@ -22,6 +22,6 @@ public class Sample1 {
 		RemoteWebDriver driver=new RemoteWebDriver(ipaddress, option);
 		driver.get("https://www.google.com");
 	 System.out.println(driver.getTitle());	
-	
+	 driver.close();
 	}
 }
